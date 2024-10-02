@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+  *{
+    text-decoration: none;
+    margin: 0px;
+     padding: 0px;
+
+ } 
+ nav{
+    background-color:palevioletred;
+    font-size: 30px;
+    font-family:  Calibri;
+    position: sticky;
+    top:0;
+    height: 80px;
+        
+  }
+li{
+    position: relative;
+    left:500px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+    
+li a{
+    color: white; font-size :18px; font-weight: bold;margin-right: 25px;
+    }
+  h1{
+    color: white;
+  }
+
+h1,li,ul{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+    align-items: stretch;
+ }
+.flex>div{
+    margin: 30px;
+    text-align: center;
+
+ }
+ @media only screen and (max-width:750px){
+    nav ul{
+     position: relative;
+     right: 350px;
+     bottom: 50px;
+     display: inline-block;
+     font-size: 20px;
+     margin: 5px;
+    
+    
+   }
+ }
+ @media only screen and (max-width:750px){
+   .flex 
+  {
+    display:block;
+    width:100%
+  }
+
+ }
+
+</style>
+<body>
+<nav>
+    <h1> Meesho </h1>
+    <ul>          
+       <li><img src="./images/icons8-home-24 (1).png" height="30px" width="30px"><a href="index.html"> Home</a></li>
+       <li ><img src="images/icons8-category-30.png" style="vertical-align: sub;"><a href="categories.html"> Categories</a></li>
+       <li ><img src="images/icons8-shopping-mall-24 (1).png"><a href="mall.html">Mall</a></li>
+       <li><img src="images/icons8-create-order-30.png"><a href="myorder.html"> Online Order</a></li>
+     </ul>
+ </nav>
+     <div class="flex">
+     <div class="flex-grow"> <img src="images/mobile men running shoes.jpg">
+     <h2>Men Running Shoes</h2>
+     </div> 
+     <div class="flex-grow"><img src="images/mobile rose gold couple rings.jpg"><h2>Couple Rings</h2>
+     </div> 
+     <div class="flex-grow"><img src="images/mobile saree soga green.jpg"><h2>Saree</h2>
+     </div> 
+     <div class="flex-grow"><img src="images/k men fashion.jpg"><h2>Men Fashion</h2></div> 
+      <div class="flex-grow"><img src="images/k jewellery.jpg"><h2>Jewellery</h2></div> 
+    </div>
+    <div class="flex">
+      <div class="flex-grow"><img src="images/k stationery.jpg"><h2>Stationery</h2></div>
+      
+      <div class="flex-grow"> <img src="images/k footwear.jpg"><h2>Footwear</h2></div> 
+      <div class="flex-grow"><img src="images/mobile ladies slipper.jpg" height="150px" width="150px"><h2>Ladies Slipper</h2>
+
+      </div> 
+      <div class="flex-grow"><img src="images/mobile men's styling shirt.webp" height="150px" width="150px"><h2>Men's Styling Shirt</h2>
+      </div> 
+      <div class="flex-grow"><img src="images/mobile non stick cookware.jpg"><h2>Kitchen Utilies</h2></div></div>
+      <div class="flex" >
+      <div class="flex-grow"><img src="images/k jewellery.jpg"><h2>Jewellery</h2></div> 
+      <div class="flex-grow"><img src="images/k western women maxi dress.jpg" height="200" width="200"><h2>Stationery</h2></div></div> 
+    
+ </body> 
+</html>
+     
+        
+        
+          
